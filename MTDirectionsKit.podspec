@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/myell0w/MTDirectionsKit.git", :tag => "1.7.0" }
   s.source_files  = 'MTDirectionsKit', 'MTDirectionsKit/**/*.{h,m}'
   s.frameworks  = 'Foundation', 'CoreLocation', 'MapKit', 'ImageIO', 'AVFoundation', 'CoreData', 'CoreText', 'GLKit', 'AVFoundation', 'OpenGLES', 'QuartzCore', 'SystemConfiguration' 
-  s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '$(PODS_ROOT)/Vendor/',  'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
+  s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
   
   s.prefix_header_contents = '#import <Foundation/Foundation.h>
 #import <CoreLocation/CoreLocation.h>
