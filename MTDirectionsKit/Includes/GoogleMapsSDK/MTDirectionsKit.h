@@ -9,7 +9,7 @@
 #import <MTDirectionsKit/MTDirectionsKitCommon.h>
 
 // GoogleMapsSDK
-#import <GoogleMaps/GoogleMaps.h>
+
 #import <MTDirectionsKit/MTDGMSMapView.h>
 #import <MTDirectionsKit/MTDGMSDirectionsOverlayView.h>
 #import <MTDirectionsKit/MTDGMSMapView.h>
